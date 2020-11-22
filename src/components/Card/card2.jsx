@@ -11,6 +11,7 @@ import React from "react";
 
 //import BioButtons from "./bioLinkButtons";
 import CalendlyButton from '../CalendlyButton'
+import ContactModal from '../contactModal'
 
 import {
   FaFacebook,
@@ -89,13 +90,13 @@ import SignUpModal from "../signupModal";
               <FaTwitter />
             </span>
           </a>
-          <a href={props.IGLink} className="profile-card-social__item instagram" target="_blank">
+          <a href={props.igLink} className="profile-card-social__item instagram" target="_blank">
             <span className="icon-font">
               {/*<svg className="icon"><use xlinkHref="#icon-instagram" /></svg>*/}
               <FaInstagram />
             </span>
           </a>
-          <a href="https://www.behance.net/codestaff-salem" className="profile-card-social__item behance" target="_blank">
+          <a href={props.behanceLink} className="profile-card-social__item behance" target="_blank">
             <span className="icon-font">
               {/*<svg className="icon"><use xlinkHref="#icon-spotify" /></svg>*/}
               <FaBehance />
@@ -123,11 +124,11 @@ import SignUpModal from "../signupModal";
           {/*<button className="profile-card__button button--blue js-message-btn">Message</button>
           <button className="profile-card__button button--orange">Follow</button>*/}
         </div>
-        <div className="profile-card-ctr">
-            <SignUpModal className="profile-card__button"/>
+        {/*<div className="profile-card-ctr">
+            <ContactModal className="profile-card__button"/>
           {/*<button className="profile-card__button button--blue js-message-btn">Message</button>
-          <button className="profile-card__button button--orange">Follow</button>*/}
-        </div>
+          <button className="profile-card__button button--orange">Follow</button>* /}
+        </div>*/}
         {/*<div className="profile-card-ctr">
 
         <SignUpModal />

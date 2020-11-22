@@ -20,8 +20,13 @@ const Header = props => (
         </p>*/}
       <Card2
       name="Uriel Aguilar"
-      subTitle="Digital Consultant"
+      subTitle="Digital Marketing"
       location="San Diego, CA"
+      fbLink="https://facebook.com"
+      igLink="https://instagram.com"
+      twitterLink="https://twitter.com"
+      behanceLink="https://www.behance.net/codestaff-salem"
+
       />
 
       </div>
